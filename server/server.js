@@ -4,6 +4,11 @@ const path = require("path");
 const app = express();
 require("dotenv").config();
 
+const corsOptions = {
+  origin: "https://contactlistf.onrender.com/", 
+}
+
+
 // Connect Database
 connectDB();
 // Init Middleware
