@@ -13,6 +13,8 @@ import AuthState from './context/auth/AuthState';
 import AlertState from './context/alert/AlertState';
 import './App.css';
 
+fetch("https://contactlistfullstackb.onrender.com/")
+
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
