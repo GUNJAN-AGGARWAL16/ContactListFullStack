@@ -5,7 +5,7 @@ const app = express();
 require("dotenv").config();
 
 const corsOptions = {
-  origin: "https://contactlistf.onrender.com/", 
+  origin: "https://contact-list-backend-7q10lqh96-gunjan-aggarwal16.vercel.app", 
 }
 
 
