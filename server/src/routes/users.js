@@ -5,10 +5,6 @@ const jwt = require("jsonwebtoken");
 const { check, validationResult } = require("express-validator");
 
 const User = require("../models/User");
-
-// @route  POST api/users
-// @desc   Register a User
-// @access  Public
 router.post(
   "/",
   [

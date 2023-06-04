@@ -39,11 +39,6 @@ const Navbar = ({ title, icon }) => {
           <i className='fa fa-user'></i> Register
         </Link>
       </li>
-      <li>
-        <Link to='/about'>
-          <i className='fa fa-phone-alt'></i> About
-        </Link>
-      </li>
     </Fragment>
   );
   return (
@@ -62,7 +57,7 @@ Navbar.propTypes = {
 };
 
 Navbar.defaultProps = {
-  title: 'Contact Keeper',
+  title: 'Contact List',
   icon: 'fas fa-id-card-alt',
 };
 export default Navbar;
